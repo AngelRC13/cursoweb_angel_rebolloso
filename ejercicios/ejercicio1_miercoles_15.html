@@ -3,18 +3,47 @@
  <head>
    <title>Florería Gustava</title>
    <meta charset="utf-8">
+   <style type="text/css"> /*permite programar en CSS*/
+     p{ 
+        color:red;
+        font-size: 14pt;
+        line-height: 1.5;
+        background-color: white;
+
+     } 
+
+     h1{
+      color:purple;
+      font-family: "times new roman"; /* cambia el estilo de la letra*/
+     }
+
+     .dc{
+          color: black;
+          font-size: 18;
+          background-color: pink;
+
+     }
+
+     p a{
+          text-decoration: none; /*quita el subrayado*/
+          color:red;
+     }
+   </style>
  </head>
 
  <body>
-    <h1>Fotosíntiesis</h1>
+    <div class="dc">
+    <center><h1>Fotosíntiesis</h1></center>
     <h2>Capítulo 1</h2>
+    </div>
     <p>
-    La fotosíntesis es necesaria para 
+    La <a href="cap2.html">fotosíntesis</a> es necesaria para 
     que las plantas produzcan oxígeno
     </p>
-    <p> Las plantas son verdes</p>
+    <p class="p2"> Las plantas son verdes</p>
+     
 
-    <ul>
+    <ul class="cs">
       <li>Hojas</li>
       <li>Tallo</li>
       <li>Raíz</li>
@@ -30,6 +59,8 @@
     <img src="img/planta.jpg" alt="planta roja" title="dale click hermano">
       <a href="cap2.html">Capítulo 2</a>
 
+      <span>hoja verde</span>
+      <span>marchita</span>
   </body> 
 
 
