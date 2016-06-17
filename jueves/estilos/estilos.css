@@ -1,0 +1,36 @@
+div{
+  font-size: 30px;
+  width: 250px;
+  height: 150px;
+  float: left;
+}
+.caja{
+  position: absolute;
+  top: 155px;
+  bottom: 0px;
+  right: 0px;
+  left: 125px;
+
+}
+.cajagrande{
+  position: relative;
+  width:500px;
+  height: 500px;
+}
+
+.verde{
+  background: green;
+}
+
+.rosa{
+  background: pink;
+}
+
+.azul{
+  background: blue;
+
+}
+
+.morado{
+  background: purple;
+}

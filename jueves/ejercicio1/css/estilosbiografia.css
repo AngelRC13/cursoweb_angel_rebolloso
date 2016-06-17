@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  height: 100%; /*para que body ocupe toda la pantalla*/
+  padding: 0;
+  font-family: Times New Roman;
+  margin-top: -20px; /*parte superior del margen*/
+  background: #EDC5FF;
+ 
+
+}
+
+h1{
+  color:black;
+  padding: 20px;
+  text-align: center; /*centra el texto*/
+  background: #F9B7FF;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25pt;
+    font-style: oblique;
+}
+.menu_navegacion ul{
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu_navegacion li{    /*edita elementos de la lista*/
+    display: inline; /*los pone de manera horizontal*/  
+}
+.menu_navegacion a{
+    margin:10px;
+    padding: 10px;
+    text-decoration: none;
+    background: #EDC5FF;
+    color:black;
+    font-style: italic;
+}
+.menu_navegacion li.activo a,
+.menu_navegacion li:hover a{ /*cuando el mause pasa se cambia el fondo del menu*/
+
+    background: pink;
+}
+
+
+div .info{
+    margin: 10px;
+    position: absolute;
+    top:550px;
+    bottom: 0px;
+    right: 200px;
+    left: 200px;
+    padding: 10px;
+    background:#FFD5F1 ;
+    text-align: justify;
+    color:black;
+    font-size: 14pt;
+
+}
+.ip, img{
+  border-radius: 50%;
+  text-align: center;
+
+}
