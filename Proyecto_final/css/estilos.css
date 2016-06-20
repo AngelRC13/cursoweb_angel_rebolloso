@@ -163,7 +163,7 @@ h3{
   padding-bottom: 0px;
 color:orange;
 }
-.postre1 h3, .postre1 h4{
+.postre1 h3{
  font-size:20pt;
 }
 .postre1 img{
@@ -173,9 +173,9 @@ color:orange;
 .postre2{
   position: relative;
   left: 420px;
-  top:-455px;
+  top:-430px;
 }
-.postre2 h3, .postre2 h4{
+.postre2 h3{
  font-size:20pt;
 }
 .postre2 img{
@@ -185,9 +185,9 @@ color:orange;
 .postre3{
   position: relative;
   left: 830px;
-  top:-925px;
+  top:-860px;
 }
-.postre3 h3, .postre3 h4{
+.postre3 h3{
  font-size:20pt;
 }
 .postre3 img{
