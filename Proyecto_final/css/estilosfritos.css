@@ -1,0 +1,81 @@
+img{
+  width: 160px;
+  height: 160px;
+}
+/*menu*/
+.menu{
+  background: orange; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ font-size: 16pt;
+
+} 
+.menu ul{
+  margin: 0;
+
+}
+.menu ul li{
+ list-style: none;
+ display: inline;
+ color:white;
+
+}
+
+.menu ul li a{ 
+
+ padding: 11px 10px;
+ position: relative;
+ left: 60px;
+ top:-10px;
+ text-decoration: none;
+ color: white;
+
+}
+
+.menu ul li:hover a, .menu .activo a{
+  background: #F7D997;
+}
+/*f1*/
+.f1{
+  position: absolute;
+  top: 220px;
+  text-align: justify;
+}
+.f1 img{
+  width: 400px;
+  height: 300px;
+}
+.f1 .in1 h3{
+border-bottom: 3px solid orange;
+font-family: "Monotype Corsiva";
+font-size: 20pt;
+
+}
+.f1 .in1 h3, .f1 .in1 h4{
+  text-align: center;
+}
+.f1 p{
+  font-size:18px;
+}
+/*f2*/
+.f2{
+  position: absolute;
+  top: 220px;
+  left: 850px;
+}
+.f2 img{
+  width: 400px;
+  height: 300px;
+}
+ .f2 .in2 h3{
+  text-align: center;
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+ }
+ .f2 .in2 p{
+  font-size:18px;
+ }
+ .f2 .in2 h4{
+  text-align: center;
+ }

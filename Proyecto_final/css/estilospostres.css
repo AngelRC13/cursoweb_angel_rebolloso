@@ -1,0 +1,96 @@
+img{
+  width: 160px;
+  height: 160px;
+}
+/*menu*/
+ .menu{
+  background: orange; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ font-size: 16pt;
+
+} 
+.menu ul{
+  margin: 0;
+
+}
+.menu ul li{
+ list-style: none;
+ display: inline;
+ color:white;
+
+}
+
+.menu ul li a{ 
+
+ padding: 11px 10px;
+ position: relative;
+ left: 60px;
+ top:-10px;
+ text-decoration: none;
+ color: white;
+
+}
+
+.menu ul li:hover a, .menu .activo a{
+  background: #F7D997;
+}
+/*postre1*/
+.pos1{
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  text-align: center;
+}
+
+.pos1 img{
+  width: 300px;
+  height: 200px;
+}
+.pos1 h3{
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+
+}
+.pos1 p{
+  font-size: 14pt;
+}
+/*postre2*/
+.pos2{
+  position: absolute;
+  top:220px;
+  left: 600px;
+  text-align: center;
+}
+.pos2 img{
+  width: 300px;
+  height: 200px;
+}
+.pos2 h3{
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.pos2 p{
+  font-size: 14pt;
+}
+/*postre3*/
+.pos3{
+  position: absolute;
+  top: 620px;
+  left: 350px;
+  text-align: center;
+}
+.pos3 img{
+  width: 300px;
+  height: 200px;
+}
+.pos3 h3{
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.pos3 p{
+  font-size: 14pt;
+}

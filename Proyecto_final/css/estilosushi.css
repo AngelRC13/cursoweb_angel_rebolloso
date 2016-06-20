@@ -1,0 +1,134 @@
+body{
+  background: white;
+}
+
+img{
+  width: 160px;
+  height: 160px;
+}
+/*menu*/
+ .menu{
+  background: orange; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ font-size: 16pt;
+
+} 
+.menu ul{
+  margin: 0;
+
+}
+.menu ul li{
+ list-style: none;
+ display: inline;
+ color:white;
+
+}
+
+.menu ul li a{ 
+
+ padding: 11px 10px;
+ position: relative;
+ left: 60px;
+ top:-10px;
+ text-decoration: none;
+ color: white;
+
+}
+
+.menu ul li:hover a, .menu .activo a{
+  background: #F7D997;
+}
+
+
+/*sushi1*/
+.sushi{
+  background: white: ;
+  padding: 20px; 
+  margin: 10px 10px;
+  position: absolute;
+  top:210px;
+  left: 0px;
+  text-align: center;
+}
+.sushi img{
+  width: 300px;
+  height: 200px;
+}
+.sushi .info h3{
+  margin:0px 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: 3px solid orange;
+  position: absolute;
+  top: 200px;
+  left:0px;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.sushi .info p{
+  font-size: 14pt;
+}
+
+/*su2*/
+.su2{
+  background: white;
+  padding: 10px;
+  position: absolute;
+  top:580px;
+  left: 10px;
+  text-align: center;
+}
+.su2 img{
+  width: 300px;
+  height: 200px;
+}
+.su2 .i h3{
+  background: white;
+  text-align: center;
+  margin: 0px 0px;
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+
+}
+.su2 .i p{
+  font-size: 14pt;
+}
+/*su3*/
+.su3{
+  padding: 50px 50px;
+  margin:0px;
+  position: absolute;
+  top: 540px;
+  left: 600px;
+  text-align: center;
+}
+.su3 img{
+  width: 300px;
+  height: 200px;
+}
+.su3 .i3 h3{
+  position: absolute;
+  left: 100px;
+  top: 100;
+  margin: 0;
+  padding: 0px 50px;
+  border-bottom: 3px solid orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+
+}
+.su3 .i3 p{
+ margin:0px 0px;
+ padding-top: 0px;
+ position: relative;
+ left: 30px;
+ top: 30px;
+ font-size: 14pt;
+}
+.su3 .i3 h4{
+ position: absolute;
+  top: 332px;
+  left: 150px;
+}

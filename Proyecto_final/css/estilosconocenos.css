@@ -1,0 +1,80 @@
+img{
+  width: 160px;
+  height: 160px;
+}
+/*menu*/
+ .menu{
+  background: orange; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ font-size: 16pt;
+
+} 
+.menu ul{
+  margin: 0;
+
+}
+.menu ul li{
+ list-style: none;
+ display: inline;
+ color:white;
+
+}
+
+.menu ul li a{ 
+
+ padding: 11px 10px;
+ position: relative;
+ left: 60px;
+ top:-10px;
+ text-decoration: none;
+ color: white;
+
+}
+
+.menu ul li:hover a, .menu .activo a{
+  background: #F7D997;
+}
+
+/*mision*/
+.mision{
+  margin: 10px 10px;
+}
+.mision h2{
+  border-bottom: 3px dotted orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.mision p{
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16pt;
+}
+/*vision*/
+.vision{
+  margin: 50px 10px;
+}
+.vision h2{
+  border-bottom: 3px dotted orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.vision p{
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16pt;
+}
+/*filosofía*/
+.filosofia{
+  margin: 50px 10px;
+}
+.filosofia h2{
+  border-bottom: 3px dotted orange;
+  font-family: "Monotype Corsiva";
+  font-size: 20pt;
+}
+.filosofia p{
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16pt;
+}

@@ -1,0 +1,196 @@
+body{
+  background: white;
+}
+h1{
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+img{
+  width: 160px;
+  height: 160px;
+}
+/*menu*/
+ .menu{
+  background: orange; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ font-size: 16pt;
+
+} 
+.menu ul{
+  margin: 0;
+
+}
+.menu ul li{
+ list-style: none;
+ display: inline;
+ color:white;
+
+}
+
+.menu ul li a{ 
+
+ padding: 11px 10px;
+ position: relative;
+ left: 60px;
+ top:-10px;
+ text-decoration: none;
+ color: white;
+
+}
+
+.menu ul li:hover a, .menu .activo a{
+  background: #F7D997;
+}
+/*Sushi*/
+.titulo2 h2{
+  text-align: center;
+  color:orange;
+  margin-right: 100px;
+  margin-left: 100px;  
+}
+.sushi{
+background: white;
+width: 400px;
+width: 400px;
+margin:10px 10px;
+padding: 10px 10px; 
+float: left;
+text-align: center; 
+}
+.sushi img{
+  width: 300px;
+  height: 200px;
+}
+.sushi h3{
+  font-family: "Monotype Corsiva";
+  font-size:20pt;
+}
+.sushi2{
+background: white;
+width: 400px;
+width: 400px;
+margin:10px 10px;
+padding: 10px 10px; 
+float: left;
+text-align: center;
+}
+.sushi2 img{
+  width: 300px;
+  height: 200px;
+}
+.sushi2 h3{
+  font-family: "Monotype Corsiva";
+  font-size:20pt;
+}
+.sushi3{
+background: white;
+width: 400px;
+width: 400px;
+margin:10px 10px;
+padding: 10px 10px;
+float: left;
+text-align: center;
+}
+.sushi3 img{
+  width: 300px;
+  height: 200px;
+}
+.sushi3 h3{
+  font-family: "Monotype Corsiva";
+  font-size:20pt;
+}
+
+/*fitos*/
+.yakis h2{
+  color:orange;
+  position: absolute;
+  top:700px;
+  left:600px;
+  text-align: center;
+  margin-top: 50px;
+}
+.frito1{
+  width: 500px;
+  height: 500px;
+  margin: 5px 5px;
+  margin-top: 80px;
+  margin-right: 150px;
+  padding: 5px 5px;
+  float: right;
+  text-align: center;
+}
+.frito1 img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20%;
+}
+.frito1 h3{
+  font-family: "Monotype Corsiva";
+  font-size:20pt;
+}
+.frito2{
+  width: 500px;
+  height: 500px;
+  margin: 10px 10px;
+  margin-top: 85px;
+  margin-left: 50px;
+  padding: 5px 5px;
+  float: left;
+  text-align: center; 
+}
+
+.frito2 img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20%;
+}
+.frito2 h3{
+  font-family: "Monotype Corsiva";
+  font-size:20pt;
+}
+/*Postres*/
+h3{
+  font-family: "Monotype Corsiva";
+}
+.postre h2{
+  margin-top: 1050px;
+  text-align: center;
+  padding-left: -300px;
+  padding-right: -0px;
+  padding-bottom: 0px;
+color:orange;
+}
+.postre1 h3, .postre1 h4{
+ font-size:20pt;
+}
+.postre1 img{
+  width: 360px;
+  height: 300px;
+}
+.postre2{
+  position: relative;
+  left: 420px;
+  top:-455px;
+}
+.postre2 h3, .postre2 h4{
+ font-size:20pt;
+}
+.postre2 img{
+  width: 360px;
+  height: 300px;
+}
+.postre3{
+  position: relative;
+  left: 830px;
+  top:-925px;
+}
+.postre3 h3, .postre3 h4{
+ font-size:20pt;
+}
+.postre3 img{
+  width: 360px;
+  height: 300px;
+}
